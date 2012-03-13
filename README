@@ -1,0 +1,27 @@
+EXECUTIVE BRANCH PRIVATELY FUNDED TRAVEL PARSER
+By Luke Rosiak
+The Washington Times
+
+Released into the public domain
+
+WARNING: THE DATA OUTPUTTED INTO processed.py BY THIS UTILITY MAY CONTAIN ERRORS, AND MAY OMIT SOME RECORDS. 
+
+It is a rough utility intended to make dealing with hundreds of variously formatted .xls and .xlsx forms detailing privately-funded travel
+of government officials in federal agencies easier (many of them are blank or contain many tabs, so they're very cumbersome). 
+The links to the original Excel spreadsheets are included on each row so you can verify
+that the utility didn't somehow combine two records or something.
+
+Improvements and error checking are appreciated. Additionally, it omits PDFs, the addition of which would also be appreciated.
+
+Take a careful look at a handful of different Office of Government Ethics travel forms - even those filed on similar dates and with the 
+same file extension - and you'll see why this is less than trivial... there are many different permutations of the form. My spot-checking didn't 
+reveal any errors, but they could be there, as could cases where a record was omitted altogether.
+
+The files are here:
+https://explore.data.gov/Federal-Government-Finances-and-Employment/OGE-Travel-Reports/kxfh-um2n
+
+INSTRUCTIONS:
+*Run python download.py
+This will download all of the Excel files to your hard drive in the files/ directory, and contatenate all their contents into one CSV called all.csv for convenience.
+*Run python parseall.py
+This will turn all.csv, which is a mess of all kinds of differently-structured forms, into processed.csv, a flat, uniformly-structured CSV.
