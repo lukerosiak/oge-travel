@@ -15,7 +15,8 @@ Improvements and error checking are appreciated. Additionally, it omits PDFs, th
 
 Take a careful look at a handful of different Office of Government Ethics travel forms - even those filed on similar dates and with the 
 same file extension - and you'll see why this is less than trivial... there are many different permutations of the form. My spot-checking didn't 
-reveal any errors, but they could be there, as could cases where a record was omitted altogether.
+reveal any errors, but they could be there. I am pretty certain, meanwhile, that there are records that are lost altogether when trying to shape the 
+all.csv into the processed.csv.
 
 The files are here:
 https://explore.data.gov/Federal-Government-Finances-and-Employment/OGE-Travel-Reports/kxfh-um2n
