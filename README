@@ -4,9 +4,9 @@ The Washington Times
 
 Released into the public domain
 
-WARNING: THE DATA OUTPUTTED INTO processed.py BY THIS UTILITY MAY CONTAIN ERRORS, AND MAY OMIT SOME RECORDS. 
+WARNING: THE DATA OUTPUTTED INTO processed.py BY THIS UTILITY LIKELY OMITS SOME RECORDS. The accuracy of the processed records is also not guaranteed. 
 
-It is a rough utility intended to make dealing with hundreds of variously formatted .xls and .xlsx forms detailing privately-funded travel
+It is intended to make dealing with hundreds of variously formatted .xls and .xlsx forms detailing privately-funded travel
 of government officials in federal agencies easier (many of them are blank or contain many tabs, so they're very cumbersome). 
 The links to the original Excel spreadsheets are included on each row so you can verify
 that the utility didn't somehow combine two records or something.
@@ -15,10 +15,10 @@ Improvements and error checking are appreciated. Additionally, it omits PDFs, th
 
 Take a careful look at a handful of different Office of Government Ethics travel forms - even those filed on similar dates and with the 
 same file extension - and you'll see why this is less than trivial... there are many different permutations of the form. My spot-checking didn't 
-reveal any errors, but they could be there. I am pretty certain, meanwhile, that there are records that are lost altogether when trying to shape the 
-all.csv into the processed.csv.
+reveal any errors, but they could be there. I am pretty certain, meanwhile, that there are some records that are lost altogether when trying to shape the 
+all.csv into the processed.csv because they depart from the major formats.
 
-The files are here:
+The original files, from the new Ethics.gov, are here:
 https://explore.data.gov/Federal-Government-Finances-and-Employment/OGE-Travel-Reports/kxfh-um2n
 
 INSTRUCTIONS:
